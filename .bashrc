@@ -24,5 +24,8 @@ export PS1="\[$RED\]\u\[$BLUE\]\w\[$RED\] \$ \[$CYAN\]"
 
 #export GOPATH=/Users/brandomiranda/Documents/MIT/Spring_2014/6.824/Labs/6.824
 export GOPATH=/Users/brandomiranda/Documents/MIT/Spring_2014/RoadRunner
+#need for go plugins to work
+GOROOT="/usr/local/go"
 
 export PATH=$PATH:/usr/local/go/bin
+
