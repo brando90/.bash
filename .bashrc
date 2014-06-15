@@ -28,4 +28,3 @@ export GOPATH=/Users/brandomiranda/Documents/MIT/Spring_2014/RoadRunner
 GOROOT="/usr/local/go"
 
 export PATH=$PATH:/usr/local/go/bin
-
