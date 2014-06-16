@@ -1,4 +1,5 @@
 alias ls="ls -G"
+alias lla="ls -la"
 
 BLACK='\e[0;30m'
 RED='\e[0;31m'
@@ -19,12 +20,13 @@ WHITE='\e[1;37m'
 
 BACK_DEFAULT_COLOR='\e[m'
 
-export PS1="\[$RED\]\u\[$BLUE\]\w\[$RED\] \$ \[$CYAN\]"
+export PS1="\[$RED\]\u\[$LIGHT_PURPLE\]\w\[$RED\] \$ \[$LIGHT_BLUE\]"
 
+export CLICOLOR=1
+export LSCOLORS="gxfxcxdxbxegedabagacad"
 
 #export GOPATH=/Users/brandomiranda/Documents/MIT/Spring_2014/6.824/Labs/6.824
 export GOPATH=/Users/brandomiranda/Documents/MIT/Spring_2014/RoadRunner
-#need for go plugins to work
-GOROOT="/usr/local/go"
+export GOROOT="/usr/local/go" 
 
 export PATH=$PATH:/usr/local/go/bin
